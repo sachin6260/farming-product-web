@@ -1,0 +1,171 @@
+       /* vedieo-section */
+       .vdo-section{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        padding-top: 140px;
+        padding-bottom: 140px;
+       }
+
+       .headphone-txt-section span{
+        font-size: 20px;
+        line-height: 20px;
+        font-family: 'Assistant', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 16px;
+}
+
+.headphone-txt-section h2{
+margin-bottom: 25px;
+color: #fff;
+font-size: 55px;
+line-height: 64px;
+font-family: 'Asap Condensed', sans-serif;
+font-weight: 500;
+
+}
+.headphone-txt-section p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 38px;
+  color: #fff;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.headphone-btn{
+  background-color: #90bd2d;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+ } 
+ .headphone-btn:hover{
+  background-color: #fff;
+  transition: all ease .6s;
+ }
+ 
+ .headphone-btn a{
+  display: flex;
+   text-decoration: none;
+   gap: 30px;
+  
+
+ }
+ .headphone-btn a img{
+background-color: #fff;
+border-radius: 50%;
+padding: 15px;
+margin-left: 10px;
+
+ }
+ .headphone-txt {
+  display: flex;
+  flex-direction: column;
+    }
+ .headphone-txt span{
+  font-size: 18px;
+   line-height: 20px;
+    color: #174f2c;
+   font-family: 'Assistant', sans-serif !important;
+   font-weight: 400;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+
+ .headphone-txt small{
+ font-size: 46px;
+ line-height: 40px;
+ color: #174f2c;
+ font-family: 'Asap Condensed', sans-serif;;
+ font-weight: 600;
+
+}
+.video-img{
+text-align: end;
+}
+.video-img img {
+  width: 444px;
+  height: 440px;
+  border-radius: 50%;
+  object-position: 68%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  padding: 10px;
+ 
+       }
+       .video-img img:hover{
+         border-color: #90bd2d;
+         transition: all ease .6s;
+       } 
+
+       @media only screen and (max-width:1199px){
+        .video-img img{
+          width: 374px;
+          height: 370px;
+          border-radius: 50%;
+          object-position: 68%;
+          object-fit: cover;
+          border: 4px solid #fff;
+          padding: 10px;
+        }
+       }
+       @media only screen and (max-width:991px){
+        .headphone-txt-section h2{
+          font-size: 38px;
+          line-height: 46px;
+          font-weight: 600;
+          margin-bottom: 10px;
+          margin-top: 20px;
+        }
+        .headphone-txt-section span{
+          margin-bottom: 16px;
+          font-size: 20px;
+    line-height: 20px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+
+         }
+         .headphone-txt-section p{
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 28px;
+         }
+         .headphone-btn {
+
+          width: 360px;
+          padding: 10px;
+        
+         }
+         .headphone-txt small{
+          font-size: 31px;
+          line-height: 31px;
+         }
+
+       }
+
+       @media only screen and (max-width:768px){
+        
+        .video-img{
+          text-align: center !important;
+          margin-bottom: 30px;
+        }
+        .headphone-txt-section {
+          text-align: center !important;
+         }
+         .headphone-btn{
+          margin-left: 80px;
+           }
+
+  
+       }
+       @media only screen and (max-width:490px){
+        .headphone-btn{
+          margin-left: 40px
+           }
+       }
+       @media only screen and (max-width:420px){
+        .headphone-btn{
+          margin-left: 15px
+           }
+       }

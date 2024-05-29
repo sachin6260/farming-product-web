@@ -1,0 +1,122 @@
+ 
+
+  
+ 
+
+    /* Home-Sliders */
+
+   .product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px 30px 0 0;
+        border: 3px solid transparent;
+        margin-bottom: 20px;
+     }
+     .product-item:hover{
+      border-color: #90bd2d;
+     } 
+     .product-item:hover .cart-btns{
+      display: block;
+      }
+     .team-box-image{
+      position: relative;
+      margin-bottom: 30px;     
+      }
+      .team-box-image img{
+        object-fit: cover;
+    border-radius: 30px 30px 0 0;
+    height: 252px;
+    
+}
+
+
+        
+    .cart-btns{
+     display: none;
+      margin-top: -44px;
+ 
+
+     }
+    
+    /* .cart-btn ul{
+      list-style: none;
+      display: flex;
+    } */
+        .cart-btns a{
+          text-decoration: none;
+          background: #93c12e;
+          width: 100%;
+        display: block;
+        color: #fff !important;
+         font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 6px 10px;
+        position: relative;
+        font-family: 'Assistant', sans-serif;
+    
+        }
+        .cart-btns a .icon{
+         color: white;
+         }
+         .cart-btns a .icon:hover {
+            color: #164c2a;
+            transition: all ease .6s;
+         }
+    
+       .product-detail h3{
+        font-size: 24px;
+        line-height: 24px;
+        color: #000;
+        font-family: 'Asap Condensed', sans-serif;
+        margin-bottom: 3px;
+       }   
+       
+       .product-price{
+        font-size: 16px;
+        font-weight: 600;
+        color: #174f2c;
+        font-family: 'Asap Condensed', sans-serif;  
+       }
+
+        
+   
+/* logos section  */
+.logo-carousel-container {
+  max-width: 800px; /* Adjust the maximum width of the carousel */
+  margin: 0 auto;
+  background-color:#f1f8f8 ;
+   margin-bottom: 50px;
+ 
+}
+ 
+.slick-slide {
+  padding: 60px;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 570px) {
+   .slick-prev,
+   .slick-next {
+     /* Adjust position and styling as needed */
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 1000; /* Ensure buttons are above the slides */
+   }
+ 
+   .slick-prev {
+     left: 10px;
+   }
+ 
+   .slick-next {
+     right: 10px;
+   }
+ }
+ 
+ 
+ 

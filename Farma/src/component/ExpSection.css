@@ -1,0 +1,137 @@
+/* company History Section */
+ 
+.differentimg-section{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color:#f1f8f8 ;
+     }
+     .experience-box{
+       background-color: #90bd2d;
+       width: 199px;
+     padding: 13px 19px 14px;
+     display: flex;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 30px;
+            }
+     .experience-box small{
+       font-size: 50px;
+       line-height: 50px;
+       font-weight: 600;
+       font-family: 'Asap Condensed', sans-serif;
+       color: white;
+     }
+     .experience-box span{
+     font-size: 16px;
+     line-height: 16px;
+     padding-left: 4px;
+     padding-top: 7px;
+     color: white;
+   }
+ 
+ 
+     .number-part{
+       font-size: 50px;
+     line-height: 50px;
+     font-weight: 600;
+     font-family: 'Asap Condensed', sans-serif;
+     color: white;
+     }
+     .different-txt-section{
+      padding-left: 40px;
+      }
+   .different-txt-section span{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    color: #212529;
+  
+   }
+   .different-txt-section h2{
+    margin-bottom: 22px;
+    margin-top: 10px;
+    color: #000;
+    font-size: 55px;
+     line-height: 64px;
+     font-family: 'Asap Condensed', sans-serif;
+     font-weight: 600;
+ 
+    
+   }
+   .different-txt-section p{
+    font-size: 20px;
+   line-height: 30px;
+   margin-bottom: 38px;
+   color: #777;
+   font-family: 'Asap Condensed', sans-serif;
+   font-weight: 400;
+  
+   }
+   .different-txt-section ul {
+    list-style: none;
+    margin-bottom: 35px;
+    padding-left: 0px;
+ }
+ 
+ .different-txt-section ul li {
+    font-size: 20px;
+    color: #164c2a;
+    line-height: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 33px;
+ }
+ 
+ .different-txt-section ul li::before {
+    content: "\f058"; /* Use ::before instead of ::after */
+    position: absolute;
+    left: 0;
+    font-family: "Font Awesome 5 Free";
+    color: #164c2a;
+ }
+   
+ 
+ 
+ 
+   .more-button a:after{
+    top: 2px;
+    left: 2px;
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    border-top: 10px solid white;
+    border-right: 10px solid transparent;
+    transition: all 0.5s ease-in-out;
+ } 
+  
+  
+    .more-button a{
+         font-size: 17px;
+       font-weight: 500;
+        padding: 16px;
+       padding-left: 40px;
+       padding-right: 40px;
+       position: relative;
+       height: 60px;
+       text-decoration: none;
+       background-color: #174e2b !important;
+       display: inline-block;
+       color: white;
+        border: none;
+       border-radius: 0% !important;
+         margin-top: 25px;
+         transition: .4s ease;
+            /* margin-bottom: 90px; */
+ 
+   }
+   .more-button a:hover{
+ background-color: #90bd2d !important;
+ color: white;
+ transition: all 0.5s ease-in-out;
+  border:0px;
+  transform: translateY(-6px);
+    
+   }
+ 

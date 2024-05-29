@@ -1,0 +1,226 @@
+/* carousal-section */
+.carousal-section{
+    background-size: cover;
+    background: no-repeat center;
+    }
+ 
+  .text-section h3{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    color: white;
+  
+  }
+  .text-section h2{
+    font-size: 60px;
+     font-weight: 600;
+     line-height: 70px;
+     color: white;
+     font-family: 'Asap Condensed', sans-serif;
+     margin-bottom: 54px;
+  }
+  
+     /* review-section  */
+ 
+  
+ 
+  .heros1  img{
+      border-radius: 50%;
+     object-fit: cover;
+     border: solid 10px #90bd2d;
+     width: 140px;
+  
+   
+ }
+  
+  .heros2  img{
+     object-fit: cover;
+     border-radius: 50%;
+      width: 140px;
+     
+      border: solid 10px #90bd2d;
+  }
+ .quats-section >img:nth-child(1){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    padding: 22px;
+ 
+ }
+ .quats-section p{
+    font-size: 20px;
+     line-height: 30px;
+     padding-right: 33px;
+     margin-bottom: 21px;
+     color: white;
+ } 
+ .quats-section span{
+    font-size: 20px;
+     line-height: 20px;
+     margin-bottom: 2px;
+     color: #90bd2d;
+     font-family: 'Asap Condensed', sans-serif;
+ }
+ .quats-section small{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+ }
+ 
+ /* carousel-button-section */
+ 
+ #carouselExampleFade .carousel-control-prev,
+ #carouselExampleFade .carousel-control-next{
+   width: 42px;
+   height: 42px;
+   background-color: #90bd2d;
+   bottom: 5px !important;
+   top: 320px;
+   opacity: .8;
+   padding: 10px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25% );
+    
+   }
+   
+ #carouselExampleFade .carousel-control-prev{
+    left: 30px;
+    /* left: calc(168px + 168px + 168px); */
+  
+ 
+ }
+ /* #carouselExampleFade .carousel-control-next{
+    left:calc(188px + 188px + 188px);
+ } */
+ @media  only screen and (max-width:991px) {
+    .carousal-section{
+       padding-top:60px !important;
+       height: 500px !important;
+    }
+    .text-section h2{
+       font-size: 40px;
+        font-weight: 600;
+        line-height: 34px;
+        color: white;
+        font-family: 'Asap Condensed', sans-serif;
+        margin-bottom: 22px;
+     }
+     .quats-section >img:nth-child(1){
+       background-color: white;
+       width: 50px;
+       height: 50px;
+       border-radius: 10px;
+       margin-bottom: 20px;
+       padding: 15px;
+    
+    } 
+    .quats-section span{
+       font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 2px;
+        color: #90bd2d;
+        font-family: 'Asap Condensed', sans-serif;
+    }
+    #carouselExampleFade .carousel-control-prev,
+ #carouselExampleFade .carousel-control-next{
+    top: 250px;
+ }
+ }
+ 
+ @media only screen and (max-width:767px) {
+    .carousal-section{
+       padding-top:60px !important;
+       height: 500px !important;
+    }
+    .text-section h2{
+       font-size: 35px;
+        font-weight: 600;
+        line-height: 34px;
+        color: white;
+        font-family: 'Asap Condensed', sans-serif;
+        margin-bottom: 22px;
+     }
+     .quats-section >img:nth-child(1){
+       background-color: white;
+       width: 50px;
+       height: 50px;
+       border-radius: 10px;
+       margin-bottom: 20px;
+       padding: 15px;
+    
+    } 
+    .quats-section span{
+       font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 2px;
+        color: #90bd2d;
+        font-family: 'Asap Condensed', sans-serif;
+    }
+    #carouselExampleFade .carousel-control-prev,
+ #carouselExampleFade .carousel-control-next{
+    top: 250px;
+ }
+    
+ }
+ 
+ @media  only screen and (max-width:575px) {
+    .carousal-section{
+       padding-top:60px !important;
+       height: 750px !important;
+    }
+   .text-section h2{
+    font-size: 30px;
+     font-weight: 600;
+     line-height: 34px;
+     color: white;
+     font-family: 'Asap Condensed', sans-serif;
+     margin-bottom: 22px;
+  }
+  .text-section h3{
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: white;
+  
+  }
+  .heros1{
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }  
+   .heros1 img{
+    width:180px ;
+    border-radius: 50%;
+     border: solid 20px #90bd2d;
+    }
+   
+   .quats-section{
+    padding: 30px;
+ 
+   }
+   .quats-section >img:nth-child(1){
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+ 
+ } 
+ .quats-section p{
+    font-size: 18px;
+     line-height: 30px;
+  
+ } 
+ #carouselExampleFade .carousel-control-prev,
+ #carouselExampleFade .carousel-control-next{
+    top: 500px !important;
+ }
+  
+ }
+  
+ 

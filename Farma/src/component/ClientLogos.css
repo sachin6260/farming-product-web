@@ -1,0 +1,17 @@
+.logo-carousel-container {
+    max-width: 800px; /* Adjust the maximum width of the carousel */
+    margin: 0 auto;
+    background-color:#f1f8f8 ;
+     margin-bottom: 50px;
+   
+  }
+   
+  .slick-slide {
+    padding: 60px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  

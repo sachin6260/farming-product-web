@@ -1,0 +1,117 @@
+ .img-part{
+    width: 100%;
+ }
+    .differentimg-section{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color:#f1f8f8 ;
+     }
+     .different-txt-section{
+      padding-left: 40px;
+      }
+   .different-txt-section span{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    color: #212529;
+  
+   }
+   .different-txt-section h2{
+    margin-bottom: 22px;
+    margin-top: 10px;
+    color: #000;
+    font-size: 55px;
+     line-height: 64px;
+     font-family: 'Asap Condensed', sans-serif;
+     font-weight: 600;
+ 
+    
+   }
+   .different-txt-section p{
+    font-size: 20px;
+   line-height: 30px;
+   margin-bottom: 38px;
+   color: #777;
+   font-family: 'Asap Condensed', sans-serif;
+   font-weight: 400;
+  
+   }
+   .different-cart-section{
+    display: flex;
+    justify-content: start;
+     padding-right: 63px;
+    gap: 20px;
+     }
+   .box-service-item{
+    background-color:white;
+    border: 2px solid #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 0 100px rgb(0 0 0 / 10%) ;
+    height: auto;
+    width: 280px;
+   }
+   .box-service-item:hover{
+    border-color: #90bd2d;
+   }
+   .box-service-item h3{
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    font-family: 'Asap Condensed', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+   }
+   @media only screen and (max-width:1199px){
+    .img-part img{
+        width: 370px;
+        height: 480px;
+    }
+
+   } 
+   @media only screen and (max-width:991px){
+    .img-part{
+        padding-top: 20px;
+    }
+    .img-part img{
+        width: 280px;
+        height: 350px;
+    }
+    .differentimg-section{
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+          }
+
+          .different-txt-section h2{
+            font-size: 38px !important;
+            line-height: 46px !important;
+          }   
+          
+          .different-txt-section p{
+            font-size: 16px !important;
+    padding-right: 0;
+    margin-bottom: 24px !important;
+          }
+          .box-service-item h3{
+            font-size: 18px !important;
+    line-height: 20px !important;
+          }
+          .different-cart-section{
+            padding-right: 30px !important;
+          }
+          .box-service-item{
+            padding: 15px;
+          }
+   }
+   @media only screen and (max-width:768px){
+   .exp-row {
+    text-align: center !important;
+     }
+     .img-part{
+        text-align: center !important;
+        margin-bottom: 20px;
+     }
+   }
+   

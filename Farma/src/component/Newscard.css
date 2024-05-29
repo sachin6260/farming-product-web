@@ -1,0 +1,85 @@
+/* News-Card-Section */
+.Neews-section{
+    padding-bottom: 110px;
+}
+
+.card-body span::after{
+   content: "";
+    position: absolute;
+    border-left: 6px solid #92c13e;
+    height: 27px;
+    left: 0;
+    top: 0;
+}
+.card-body span{
+   position: relative;
+   margin-bottom: 50px;
+    padding-left: 21px;
+    line-height: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color:#777;
+    font-family: 'Assistant', sans-serif;
+
+}
+.card .span-above{
+   margin-top: 18px;
+}
+
+.card-footer span{
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 30px;
+    color: #174e2b;
+
+}
+.card-footer small{
+   font-family: 'Assistant', sans-serif;
+   color: #777;
+
+}
+
+ /* more button section  */
+
+.more-button a:after{
+   top: 2px;
+   left: 2px;
+   width: 0;
+   height: 0;
+   content: "";
+   position: absolute;
+   border-top: 10px solid white;
+   border-right: 10px solid transparent;
+   transition: all 0.5s ease-in-out;
+} 
+ 
+ 
+   .more-button a{
+        font-size: 17px;
+      font-weight: 500;
+       padding: 16px;
+      padding-left: 40px;
+      padding-right: 40px;
+      position: relative;
+      height: 60px;
+      text-decoration: none;
+      background-color: #174e2b !important;
+      display: inline-block;
+      color: white;
+       border: none;
+      border-radius: 0% !important;
+        margin-top: 25px;
+        transition: .4s ease;
+           /* margin-bottom: 90px; */
+
+  }
+  .more-button a:hover{
+background-color: #90bd2d !important;
+color: white;
+transition: all 0.5s ease-in-out;
+ border:0px;
+ transform: translateY(-6px);
+   
+  }
+ 
